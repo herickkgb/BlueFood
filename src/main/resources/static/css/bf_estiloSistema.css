@@ -1,52 +1,23 @@
-/*******************************************************************************
- * MIT License
- *
- * Copyright (c) 2019 Softblue
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *******************************************************************************/
-
-*
-{
+* {
 	font-family: "Verdana";
 }
 
-input#inputLargo
-{
+input#inputLargo {
 	width: 300px;
 }
 
-body
-{
+body {
 	text-align: center;
 	margin: 0 0 0 0;
 }
 
-div#divLogotipoSistema
-{
+div#divLogotipoSistema {
 	background-color: #1e9bde;
 	width: 100%;
 	height: 70px;
 }
 
-div#divUsuarioLogado
-{
+div#divUsuarioLogado {
 	background-color: #7BC2E5;
 	width: 100%;
 	height: auto;
@@ -54,41 +25,33 @@ div#divUsuarioLogado
 	color: #ffffff;
 }
 
-
-img#imgLogotipoSistema
-{
+img#imgLogotipoSistema {
 	height: 60%;
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
-img#imgIconeCarrinho
-{
+img#imgIconeCarrinho {
 	height: 50px;
 }
 
-div#divCategoriasComidaGeral
-{
+div#divCategoriasComidaGeral {
 	overflow: hidden;
 	display: flex;
 	justify-content: space-between;
 }
 
-div#divRestaurantesGeral
-{
-
+div#divRestaurantesGeral {
+	
 }
 
-div#divCategoriasComidaOpcao
-{
+div#divCategoriasComidaOpcao {
 	background-color: #ffffff;
 	width: 20%;
 	height: 130px;
 	float: left;
-	
 }
 
-div#divRestaurantesOpcao
-{
+div#divRestaurantesOpcao {
 	background-color: #ffffff;
 	width: 400px;
 	height: auto;
@@ -96,58 +59,47 @@ div#divRestaurantesOpcao
 	margin-right: auto;
 }
 
-div#divLarguraPadrao
-{
+div#divLarguraPadrao {
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-img#imgCategoriaComida
-{
+img#imgCategoriaComida {
 	height: 50%;
 }
 
-img#imgRestauranteOpcao
-{
-	height: 130px;
-	
-}
-
-img#imgRestauranteBusca
-{
+img#imgRestauranteOpcao {
 	height: 130px;
 }
 
-span#restauranteOpcaoTitulo
-{
+img#imgRestauranteBusca {
+	height: 130px;
+}
+
+span#restauranteOpcaoTitulo {
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-
-span#spanAuxiliarDeAlinhamentoVertical
-{
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+span#spanAuxiliarDeAlinhamentoVertical {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
 }
 
-fieldset
-{
+fieldset {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
 	border-width: 0px;
 }
 
-fieldset#fieldsetFiltros
-{
+fieldset#fieldsetFiltros {
 	border-width: 3px;
 }
 
-h1
-{
+h1 {
 	color: #1e9bde;
 	background-color: #ffffff;
 	text-transform: uppercase;
@@ -164,51 +116,33 @@ h1
 	margin-right: auto;
 }
 
-img#imgIconeUsuario,
-img#imgIconeRestaurante
-{
+img#imgIconeUsuario, img#imgIconeRestaurante {
 	width: 100px;
 }
 
-
-
-input,
-select,
-textarea
-{
+input, select, textarea {
 	border: 2px solid #1e9bde;
 	height: 35px;
-    vertical-align: middle;
+	vertical-align: middle;
 	margin-bottom: 6px;
 }
 
-.inputError
-{
+.inputError {
 	border: 2px solid #FF2828;
 }
 
-textarea
-{
+textarea {
 	width: 300px;
 	height: 100px;
 }
 
-
-
-input[type=text],
-input[type=password],
-select
-{
+input[type=text], input[type=password], select {
 	font-size: 16px;
 	width: 140px;
 	padding-left: 8px;
 }
 
-
-
-input[type=button],
-input[type=submit]
-{
+input[type=button], input[type=submit] {
 	background-color: #1e9bde;
 	border-bottom: 3px solid #0153b0;
 	border-top: 1px solid #0153b0;
@@ -221,21 +155,17 @@ input[type=submit]
 	padding: 5px 8px;
 }
 
-input[type=button]:hover,
-input[type=submit]:hover
-{
+input[type=button]:hover, input[type=submit]:hover {
 	background-color: #69c5ee;
 	border-color: #1e9bde;
 }
 
-input#inputSelecionado
-{
+input#inputSelecionado {
 	background-color: #69c5ee;
 	border-color: #1e9bde;
 }
 
-div#mensagemDeErro
-{
+div#mensagemDeErro {
 	background-color: #d40000;
 	width: 400px;
 	border-radius: 5px;
@@ -245,8 +175,7 @@ div#mensagemDeErro
 	margin-right: auto;
 }
 
-div#mensagemDeSucesso
-{
+div#mensagemDeSucesso {
 	background-color: #0BAF00;
 	width: 400px;
 	border-radius: 5px;
@@ -256,57 +185,42 @@ div#mensagemDeSucesso
 	margin-right: auto;
 }
 
-a
-{
+a {
 	color: #000000;
 	text-decoration: none;
 }
 
-a:hover
-{
+a:hover {
 	text-decoration: underline;
 }
 
-table
-{
+table {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-table
-{
+table {
 	background-color: #ffffff;
 	font-size: 14px;
 	border-spacing: 1px;
 	border-collapse: separate;
 }
 
-th
-{
+th {
 	background-color: #1e9bde;
 	color: #ffffff;
 	text-transform: uppercase;
 	padding: 3px;
 }
 
-tr:nth-child(even)
-{
+tr:nth-child(even) {
 	background-color: #dddddd;
 }
 
-tr:nth-child(odd)
-{
+tr:nth-child(odd) {
 	background-color: #ffffff;
 }
 
-td
-{
+td {
 	padding: 3px;
 }
-
-
-
-
-
-
-
