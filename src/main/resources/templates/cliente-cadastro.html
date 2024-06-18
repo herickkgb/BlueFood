@@ -35,8 +35,10 @@
 			</form>
 			<br /> <input type="button" value="Voltar" onClick="location.href='index.html';"/>
 		</div>
-		<div id="mensagemDeSucesso">Aqui vai um exemplo de mensagem de sucesso</div>
-			<div id="mensagemDeErro">Aqui vai um exemplo de mensagem de erro</div><br /> 
+		<div id="mensagemDeSucesso" th:if="${msg != null}">
+			<span th:text="${msg}"></span>
+		</div>
+		<div id="mensagemDeErro" th:if="${msg == null}">"Ocorreu um erro ao salvar o cliente. Por favor, verifique os dados e tente novamente."</div><br /> 
 	</div>
 </body>
 </html>
